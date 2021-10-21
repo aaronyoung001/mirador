@@ -41,20 +41,20 @@ export class Workspace extends React.Component {
     }
 
     if (windowIds.length === 0) return this.zeroWindows();
-
-    switch (workspaceType) {
-      case 'elastic':
-        return <WorkspaceElastic />;
-      case 'mosaic':
-        return <WorkspaceMosaic />;
-      default:
-        return windowIds.map(windowId => (
-          <Window
-            key={`${windowId}-${workspaceId}`}
-            windowId={windowId}
-          />
-        ));
-    }
+    return <WorkspaceMosaic />;
+    // switch (workspaceType) {
+    //   case 'elastic':
+    //     return <WorkspaceElastic />;
+    //   case 'mosaic':
+    //     return <WorkspaceMosaic />;
+    //   default:
+    //     return windowIds.map(windowId => (
+    //       <Window
+    //         key={`${windowId}-${workspaceId}`}
+    //         windowId={windowId}
+    //       />
+    //     ));
+    // }
   }
 
   /** */

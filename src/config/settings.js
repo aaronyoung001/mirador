@@ -260,8 +260,8 @@ export default {
     allowClose: true, // Configure if windows can be closed or not
     allowFullscreen: false, // Configure to show a "fullscreen" button in the WindowTopBar
     allowMaximize: true, // Configure if windows can be maximized or not
-    allowTopMenuButton: true, // Configure if window view and thumbnail display menu are visible or not
-    allowWindowSideBar: true, // Configure if side bar menu is visible or not
+    allowTopMenuButton: false, // Configure if window view and thumbnail display menu are visible or not
+    allowWindowSideBar: false, // Configure if side bar menu is visible or not
     authNewWindowCenter: 'parent', // Configure how to center a new window created by the authentication flow. Options: parent, screen
     sideBarPanel: 'info', // Configure which sidebar is selected by default. Options: info, attribution, canvas, annotations, search
     defaultSidebarPanelHeight: 201,  // Configure default sidebar height in pixels

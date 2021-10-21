@@ -88,7 +88,7 @@ export class Window extends Component {
 }
         aria-label={t('window', { label })}
       >
-        {this.wrappedTopBar()}
+        {/*{this.wrappedTopBar()}*/}
         { manifestError && <ErrorContent error={{ stack: manifestError }} windowId={windowId} /> }
         <div className={classes.middle}>
           <div className={classes.middleLeft}>

@@ -55,7 +55,7 @@ const styles = theme => ({
   // eslint-disable-next-line sort-keys
   '@media (min-width: 600px)': {
     workspaceWithControlPanel: {
-      paddingLeft: 68,
+      paddingLeft: 0,
       paddingTop: 0,
     },
   },

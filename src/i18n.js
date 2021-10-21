@@ -42,11 +42,11 @@ function createI18nInstance() {
 
   const instance = i18n.createInstance();
   instance.use(initReactI18next).init({
-    fallbackLng: 'en',
+    fallbackLng: 'zh-CN',
     interpolation: {
       escapeValue: false, // react is already safe from xss
     },
-    lng: 'en',
+    lng: 'zh-CN',
     resources,
   });
 

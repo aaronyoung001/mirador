@@ -29,22 +29,23 @@ export class WorkspaceArea extends Component {
 
     return (
       <>
-        {
-          isWorkspaceControlPanelVisible
-            && <WorkspaceControlPanel variant={controlPanelVariant} />
-        }
+        {/*{*/}
+        {/*  isWorkspaceControlPanelVisible*/}
+        {/*    && <WorkspaceControlPanel variant={controlPanelVariant} />*/}
+        {/*}*/}
         <main
           className={classNames(classes.viewer, ns('viewer'))}
           lang={lang}
           aria-label={t('workspace')}
         >
-          {
-            isWorkspaceAddVisible
-              ? <WorkspaceAdd />
-              : <Workspace />
-          }
+          {/*{*/}
+          {/*  isWorkspaceAddVisible*/}
+          {/*    ? <WorkspaceAdd />*/}
+          {/*    : <Workspace />*/}
+          {/*}*/}
+          <Workspace />
           <ErrorDialog />
-          <BackgroundPluginArea />
+          {/*<BackgroundPluginArea />*/}
         </main>
       </>
     );
